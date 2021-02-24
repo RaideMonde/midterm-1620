@@ -1,9 +1,51 @@
+/*
+  Color palette
+  #FED3BE
+  #E1BB47
+  #639A88
+  #3A5683
+  #BB8998
+  #3A3846
+  #DED9DD
+*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+nav {
+  background-color: #ded9dd;
+  border: 3px solid #3a3846;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+  font-size: 2rem;
+}
+
+nav li{
+  display: inline;
+}
+
+nav ul{
+  display: block;
+  text-align: center;
+}
+
+a {
+  font-family: 'Quicksand', sans-serif;
+  color: #3a5683;
+}
+
+nav a:hover{
+  color: #ded9dd;
+  background-color: #3a3846;
+}
+
+nav a:visited{
+  color: #639a88;
+  background-color: #3a3846;
+}
+
 body {
-  margin: 0;
-  padding: 0;
-  background-color: antiquewhite;
+  background-color: #639a88;
   color: #3a3846;
-  font-size: 10px;
 }
 
 header {
@@ -17,16 +59,30 @@ h1 {
   display: inline;
 }
 
-o {
+p {
   font-family: 'Montserrat', sans-serif;
 }
 
+p::first-letter{
+  font-size: 1.5rem;
+}
+
+section > p::first-line{
+  background-color: #fed3be;
+}
+
 img {
-  max-width: 500px;
+  width: 500px;
   float: left;
   padding: 2rem;
 }
 
-li:nth-child(2) {
-  padding: 2rem;
+.floatLeft{
+  float: left;
+  padding: 1rem;
+}
+
+#active{
+  color: #ded9dd;
+  background-color: #3a3846;
 }
