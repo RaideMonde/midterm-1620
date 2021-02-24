@@ -34,13 +34,12 @@ a {
 }
 
 nav a:hover{
-  color: #ded9dd;
+  color: #639a88;
   background-color: #3a3846;
 }
 
 nav a:visited{
   color: #639a88;
-  background-color: #3a3846;
 }
 
 body {
@@ -69,6 +68,11 @@ p::first-letter{
 
 section > p::first-line{
   background-color: #fed3be;
+}
+
+section > ul {
+  background-color: #ded9dd;
+  border: 3px solid #3a3846;
 }
 
 img {
